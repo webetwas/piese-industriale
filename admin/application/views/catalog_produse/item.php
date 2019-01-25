@@ -277,19 +277,24 @@
 							</div>
 						</div>
 					</div>
-													
-					<div class="mail-text h-200" style="margin-left:-20px;margin-right:-20px;margin-bottom:10px;">
+					
+					<div class="row">
+						<div class="col-sm-6">							
+							<div class="mail-text h-200" style="margin-bottom:10px;">
+								<label>Descriere Produs</label>
+								<textarea name="<?=$form->item->prefix;?>content_ro" id="ncontentro" rows="4"><?=(!empty($item->content_ro) ? $item->content_ro : "Descriere produs..");?></textarea>
+								<div class="clearfix"></div>
+							</div>
+						</div>	
+						<div class="col-sm-6" style="border-left: solid 1px #333333">	
+							<div class="mail-text h-200" style="margin-bottom:10px;">
+								<label>Descriere Produs <span style="color:red;">ENG</span></label>
+								<textarea name="<?=$form->item->prefix;?>content_en" id="ncontenten" rows="4"><?=(!empty($item->content_en) ? $item->content_en : "Product description..");?></textarea>
+								<div class="clearfix"></div>
+							</div>	
+						</div>														
+					</div>		
 
-						<textarea name="<?=$form->item->prefix;?>content_ro" id="ncontentro" rows="4"><?=(!empty($item->content_ro) ? $item->content_ro : "Descriere produs..");?></textarea>
-						<div class="clearfix"></div>
-					</div>
-													
-					<div class="mail-text h-200" style="margin-left:-20px;margin-right:-20px;margin-bottom:10px;">
-
-						<textarea name="<?=$form->item->prefix;?>content_en" id="ncontenten" rows="4"><?=(!empty($item->content_en) ? $item->content_en : "Product description..");?></textarea>
-						<div class="clearfix"></div>
-					</div>															
-													
 					<div class="row" style="margin-bottom:20px;">
 						<div class="col-sm-12">
 							<div class="form-group">
