@@ -88,24 +88,14 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 /**
  * [DATABASE NAME - required]
  * @var [type]
- */ define("DATABASE_NAME", "pieseind_db");
+ */ define("DATABASE_NAME", "cazareef_database");
 
 /**
  * [define CONSTANTS]
  *
  */
-define("PUT", "put");
-define("GET", "get");
-define("ITEM", "item");
-//
-define("INSERT", "i");
-define("UPDATE", "u");
-define("DELETE", "d");
-
-// define("BASE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/');
-define("BASE_URL", 'http://localhost/piese-industriale/web/');
-// define("SITE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/');
-define("SITE_URL", 'http://localhost/piese-industriale/web/');
+define("BASE_URL", "http://localhost/2019/piese-industriale/web/");
+define("SITE_URL", "http://localhost/2019/piese-industriale/web/");
 
 define("TBL_OWNER", "be_owner");
 define("TBL_COMPANY", "be_ocompany");
@@ -114,9 +104,8 @@ define("TBL_PAGES", "fe_pages");
 define("TBL_PAGES_STRUCTURE", "fe_pages_structure");
 define("TBL_PAGES_BANNERS", "fe_pages_banners");
 define("TBL_PAGES_IMAGES", "fe_pages_images");
-define("PATH_IMG_BLOG", "public/upload/img/blog/");
-define("PATH_IMG_TESTIMONIALE", "public/upload/img/testimoniale/");
-define("PATH_IMG_PROFILE", "public/upload/img/profile");
+define("TBL_CAMERE", "camere");
+define("TBL_CAMERE_INTERVALE", "camere_intervale");
 
 define("TBL_OBJ_OBJECTS", "obj_objects");
 define("TBL_OBJ_CONTENT", "obj_content");
@@ -127,12 +116,6 @@ define("PATH_IMG_PAGINA", "public/upload/img/page/page/");
 define("PATH_IMG_BANNERS", "public/upload/img/page/banners/");
 define("PATH_IMG_MISC", "public/upload/img/misc/");
 
-define("PATH_IMG_PROIECTE", "public/upload/img/proiecte/");
-define("PATH_IMG_ECHIPA", "public/upload/img/echipa/");
-define("PATH_IMG_GALERIEFOTO", "public/upload/img/galeriefoto/");
-define("PATH_IMG_GALERIEVIDEO", "public/upload/img/galerievideo/");
-define("PATH_IMG_SERVICII", "public/upload/img/servicii/");
-
-define("TBL_UTILIZATORI", "shop_utilizatori");
-define("TBL_CLIENTI", "shop_clienti");
-define("TBL_COMENZI", "shop_comenzi");
+define("PATH_IMG_CAMERE", "public/upload/img/camere/");
+define("PATH_IMG_GALERIE_FOTO", "public/upload/img/galerie_foto/");
+define("PATH_IMG_GALERIE_VIDEO", "public/upload/img/galerie_video/");

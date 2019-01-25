@@ -20,7 +20,7 @@
     #request to index.php
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ http://localhost/piese-industriale/web/$1 [L]
+    RewriteRule ^(.*)$  http://localhost/2019/piese-industriale/web/index.php/$1 [L]
 </IfModule>
 
 <IfModule !mod_rewrite.c>

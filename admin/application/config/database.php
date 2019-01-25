@@ -154,9 +154,9 @@ $db['default'] = array(
 
 	'hostname' => 'localhost',
 
-	'username' => 'pieseind_user',
+	'username' => 'root',
 
-	'password' => '!BcJNtU4[;MM',
+	'password' => '',
 
 	'database' => "pieseind_db",
 

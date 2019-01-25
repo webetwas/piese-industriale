@@ -801,7 +801,7 @@ class Airdrop_model extends CI_Model
 					FROM
 						' .self::TBL_NODES. '
 					ORDER by node_id, parent_id
-				) AS nodes_sorted LEFT JOIN nodes_images AS ndimg ON nd.nodes_sorted.node_id = ndimg.id_item, (SELECT @pv := ' .(int)$node_id. ') initialisation
+				) AS nodes_sorted LEFT JOIN nodes_images AS ndimg ON nodes_sorted.node_id = ndimg.id_item, (SELECT @pv := ' .(int)$node_id. ') initialisation
 			WHERE
 				find_in_set(parent_id, @pv) > 0
 			AND @pv := concat(@pv, \',\', node_id)
