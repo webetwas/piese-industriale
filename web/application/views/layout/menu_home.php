@@ -7,7 +7,7 @@
     <div class="container">
       <div class="logo" data-sticky-logo="<?=base_url();?>public/upload/img/misc/<?=$owner->image_logo;?>" data-normal-logo="<?=base_url();?>public/assets/img/logo-white.png">
         <a href="<?=SITE_URL?>">
-          <img alt="piese industriale" src="<?=base_url();?>public/upload/img/misc/<?=$owner->image_logo;?>" data-logo-height="35">
+          <img alt="piese industriale, industrial parts" src="<?=base_url();?>public/upload/img/misc/<?=$owner->image_logo;?>" data-logo-height="35">
         </a>
       </div>
 

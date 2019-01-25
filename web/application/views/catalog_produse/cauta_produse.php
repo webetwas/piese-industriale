@@ -53,7 +53,7 @@
 				<div class="product-layout product-list col-xs-12">
 					<div class="product-thumb">
 					  <div class="image product-imageblock"> <a href="<?=base_url()?>catalog_produse/produs/<?=$prod_ca_prod->slug?>">
-						<img src="<?=$prod_image?>" class="img-responsive" alt="piese industriale" />
+						<img src="<?=$prod_image?>" class="img-responsive" alt="piese industriale, industrial parts" />
 						<img src="<?=$prod_image_second?>" alt="<?=$prod_ca_prod->atom_name?>" title="<?=$prod_ca_prod->atom_name?>" class="img-responsive" /> </a>
 						<ul class="button-group">
 						  <li>

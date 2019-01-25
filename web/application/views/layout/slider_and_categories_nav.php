@@ -31,7 +31,7 @@
 					<li>
 						<a href="javascript:void(0);" class="left-sidebar-title">
 							<i class="fa fa-navicon"></i>
-							<?=($site_lang == "en" ? 'Products' : 'Catalog PRODUSE')?><img src="img/sidebar-icon.png" alt="piese industriale">
+							<?=($site_lang == "en" ? 'Products' : 'Catalog PRODUSE')?><img src="img/sidebar-icon.png" alt="piese industriale, industrial parts">
 						</a>
 					</li>
 					<?php if(!is_null($categories)) { ?>
@@ -65,7 +65,7 @@
 								<!-- Slide One -->
 								<li class="slider" data-transition="random" data-slotamount="7" data-masterspeed="300">
 									<!-- Main Image-->
-										<img src="<?=$pathimgbanners.$slideritem->img?>" alt="piese industriale"  data-bgposition="center top" data-bgrepeat="no-repeat" data-bgpositionend="center center"> 
+										<img src="<?=$pathimgbanners.$slideritem->img?>" alt="piese industriale, industrial parts"  data-bgposition="center top" data-bgrepeat="no-repeat" data-bgpositionend="center center"> 
 								</li>
 								<?php if($key_s_l == "banner2") break; } ?>
 							</ul>
@@ -118,7 +118,7 @@
 						echo '
 							<div class="right-single-banner">
 								<a href="' .(!is_null($rsb_href1) ? $rsb_href1 : 'javascript:void(0);'). '">
-									<img src="' . $r_s_b . '" alt="piese industriale">
+									<img src="' . $r_s_b . '" alt="piese industriale, industrial parts">
 								</a>
 							</div>						
 						';

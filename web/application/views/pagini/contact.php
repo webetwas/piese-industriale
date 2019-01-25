@@ -17,7 +17,7 @@ if(strlen($company->adresa_pl) > 5) {
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-c-item">
                             <div class="s-c-icon">
-                                <img src="img/c-icon-1.png" alt="piese industriale">
+                                <img src="img/c-icon-1.png" alt="piese industriale, industrial parts">
                             </div>
                             <p><?=$makeadr?></p>
                         </div>
@@ -25,7 +25,7 @@ if(strlen($company->adresa_pl) > 5) {
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-c-item">
                             <div class="s-c-icon">
-                                <img src="img/c-icon-2.png" alt="piese industriale">
+                                <img src="img/c-icon-2.png" alt="piese industriale, industrial parts">
                             </div>
 							<?php if(!empty($company->telefon_fix)): ?>
 							<p><a href="tel:<?=$company->telefon_fix?>"><?=$company->telefon_fix?></a></p><br>
@@ -38,7 +38,7 @@ if(strlen($company->adresa_pl) > 5) {
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-c-item">
                             <div class="s-c-icon">
-                                <img src="img/c-icon-3.png" alt="piese industriale">
+                                <img src="img/c-icon-3.png" alt="piese industriale, industrial parts">
                             </div>
                             <p>Email : <a href="mailto:<?=$owner->oemail?>"><?=$owner->oemail?></a></p>
                             <p>Web : <a href="http://<?=$owner->website?>"><?=$owner->website?></a></p>

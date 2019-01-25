@@ -5,7 +5,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
                 <div class="footer-widget">
                     <div class="bottom-logo">
-                        <img src="<?=(isset($owner->image_logo) && !is_null($owner->image_logo) ? SITE_URL.PATH_IMG_MISC. '/' .$owner->image_logo : base_url().'public/upload/img/misc/photo-cvnrjry8.png');?>" title="<?=$owner->company?>" alt="piese industriale">
+                        <img src="<?=(isset($owner->image_logo) && !is_null($owner->image_logo) ? SITE_URL.PATH_IMG_MISC. '/' .$owner->image_logo : base_url().'public/upload/img/misc/photo-cvnrjry8.png');?>" title="<?=$owner->company?>" alt="piese industriale, industrial parts">
                     </div>
                     <div class="social-text">
                         <div class="social-icons">
@@ -47,7 +47,7 @@
                     </div>
                         <!-- Scroll to top -->
                         <a class="scrollup" href="#">
-                            <img src="img/scrollup.png" alt="piese industriale">
+                            <img src="../web/public/assets/img/scrollup.png" alt="piese industriale, industrial parts">
                         </a>
                     </div>
                 </div>

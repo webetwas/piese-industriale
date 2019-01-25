@@ -10,7 +10,7 @@
                 <ul>
 								<?php foreach($homesliders as $slider): ?>
 									<li data-transition="fade" data-slotamount="7" data-masterspeed="600">
-										<img src="<?=$pathimgbanners.$slider->img?>" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat">
+										<img src="<?=$pathimgbanners.$slider->img?>" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" alt="piese industriale, industrial parts">
 										<div class="tp-caption v-caption-big-white lfb stb"
 												 data-x="center" data-hoffset="0"
 												 data-y="center" data-voffset="-60"

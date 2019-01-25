@@ -38,10 +38,10 @@
 				<div class="single-items">
 					<a href="<?=base_url()?>catalog_produse/categorie/<?=$ctg["slug"]?>">
 						<?php if(!is_null($ctg["images"])): ?>
-						<img class="primary-img" src="<?=base_url()?>public/upload/img/nodes/m/<?=$ctgimages[0]?>" alt="piese industriale">
-						<?=(!is_null($ctg["images"]) && is_array($ctgimages) && count($ctgimages) > 1 ? '<img class="secondary-img" src="' .base_url(). 'public/upload/img/nodes/m/' .$ctgimages[1]. '" alt="uniforme medicale">' : '')?>
+						<img class="primary-img" src="<?=base_url()?>public/upload/img/nodes/m/<?=$ctgimages[0]?>" alt="piese industriale, industrial parts">
+						<?=(!is_null($ctg["images"]) && is_array($ctgimages) && count($ctgimages) > 1 ? '<img class="secondary-img" src="' .base_url(). 'public/upload/img/nodes/m/' .$ctgimages[1]. '" alt="piese industriale, industrial parts">' : '')?>
 						<?php else: ?>
-						<img class="primary-img" src="<?=base_url()?>public/assets/img/product/blank_product.jpg" alt="piese industriale">
+						<img class="primary-img" src="<?=base_url()?>public/assets/img/product/blank_product.jpg" alt="piese industriale, industrial parts">
 						<?php endif; ?>
 					</a>
 					<div class="p-bottom-cart">
@@ -126,7 +126,7 @@
 					<a href="<?=base_url()?>catalog_produse/produs/<?=$product->slug?>">
 
 						<?php if(!is_null($product->images)): ?>
-						<img class="primary-img" src="<?=base_url()?>public/upload/img/catalog_produse/m/<?=$pimages[0]?>" alt="piese industriale">
+						<img class="primary-img" src="<?=base_url()?>public/upload/img/catalog_produse/m/<?=$pimages[0]?>" alt="piese industriale, industrial parts">
 						<?=(!is_null($product->images) && is_array($pimages) && count($pimages) > 1 ? '<img class="secondary-img" src="' .base_url(). 'public/upload/img/catalog_produse/m/' .$pimages[1]. '" alt="' . $product->{'atom_name_' . $site_lang} . '">' : '')?>
 						<?php else: ?>
 						<img class="primary-img" src="<?=base_url()?>public/assets/img/product/blank_product.jpg" alt="<?=$product->{'atom_name_' . $site_lang}?>">
