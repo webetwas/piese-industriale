@@ -158,7 +158,7 @@ $db['default'] = array(
 
 	'password' => '!BcJNtU4[;MM',
 
-	'database' => DATABASE_NAME,
+	'database' => "pieseind_db",
 
 	'dbdriver' => 'mysqli',
 

@@ -102,8 +102,10 @@ define("INSERT", "i");
 define("UPDATE", "u");
 define("DELETE", "d");
 
-define("BASE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/');
-define("SITE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/');
+// define("BASE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/');
+define("BASE_URL", 'http://localhost/piese-industriale/web/');
+// define("SITE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/');
+define("SITE_URL", 'http://localhost/piese-industriale/web/');
 
 define("TBL_OWNER", "be_owner");
 define("TBL_COMPANY", "be_ocompany");
