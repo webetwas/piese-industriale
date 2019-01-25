@@ -1,0 +1,45 @@
+[16-Jan-2018 20:23:30 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:23:31 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:23:46 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:24:28 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:24:30 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:24:30 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:24:49 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:25:15 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:25:17 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:25:19 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[16-Jan-2018 20:25:21 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<' in /home/recukine/public_html/web/application/views/blocuri_html/bloc_servicii.php on line 4
+[20-Jan-2018 12:07:24 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ''" class="btn btn-primary">Cit' (T_CONSTANT_ENCAPSED_STRING) in /home/recukine/public_html/web/application/views/blocuri_html/bloc2.php on line 25
+[20-Jan-2018 12:07:26 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ''" class="btn btn-primary">Cit' (T_CONSTANT_ENCAPSED_STRING) in /home/recukine/public_html/web/application/views/blocuri_html/bloc2.php on line 25
+[20-Jan-2018 13:28:06 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 63
+[20-Jan-2018 13:28:07 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 63
+[20-Jan-2018 13:28:09 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 63
+[20-Jan-2018 13:28:15 Europe/Bucharest] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 63
+[20-Jan-2018 13:30:34 Europe/Bucharest] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 94
+[20-Jan-2018 13:30:37 Europe/Bucharest] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 94
+[20-Jan-2018 13:30:49 Europe/Bucharest] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 94
+[20-Jan-2018 21:13:59 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '?>' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 35
+[20-Jan-2018 21:14:00 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '?>' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 35
+[20-Jan-2018 21:14:00 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '?>' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 35
+[20-Jan-2018 21:14:01 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '?>' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 35
+[20-Jan-2018 21:14:52 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ':' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 57
+[20-Jan-2018 21:14:53 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ':' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 57
+[20-Jan-2018 21:14:54 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ':' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 57
+[20-Jan-2018 21:14:54 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ':' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 57
+[20-Jan-2018 21:15:07 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ':' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 57
+[20-Jan-2018 21:15:24 Europe/Bucharest] PHP Parse error:  syntax error, unexpected ':' in /home/recukine/public_html/web/application/views/pagini/servicii.php on line 57
+[11-Oct-2018 20:26:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pieseind/public_html/web/application/views/layout/slider_and_categories_nav.php on line 12
+[11-Oct-2018 20:26:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pieseind/public_html/web/application/views/layout/slider_and_categories_nav.php on line 12
+[11-Oct-2018 20:26:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pieseind/public_html/web/application/views/layout/slider_and_categories_nav.php on line 12
+[11-Oct-2018 20:26:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pieseind/public_html/web/application/views/layout/slider_and_categories_nav.php on line 12
+[11-Oct-2018 20:26:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pieseind/public_html/web/application/views/layout/slider_and_categories_nav.php on line 12
+[11-Oct-2018 20:26:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pieseind/public_html/web/application/views/layout/slider_and_categories_nav.php on line 12
+[11-Oct-2018 20:26:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pieseind/public_html/web/application/views/layout/slider_and_categories_nav.php on line 12
+[11-Oct-2018 20:32:23 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/pieseind/public_html/web/application/views/layout/slider_and_categories_nav.php on line 14
+[11-Oct-2018 20:46:20 UTC] PHP Parse error:  syntax error, unexpected 'base_url' (T_STRING), expecting ',' or ';' in /home/pieseind/public_html/web/application/views/pagini/pagina_produs.php on line 63
+[11-Oct-2018 20:46:20 UTC] PHP Parse error:  syntax error, unexpected 'base_url' (T_STRING), expecting ',' or ';' in /home/pieseind/public_html/web/application/views/pagini/pagina_produs.php on line 63
+[11-Oct-2018 20:46:21 UTC] PHP Parse error:  syntax error, unexpected 'base_url' (T_STRING), expecting ',' or ';' in /home/pieseind/public_html/web/application/views/pagini/pagina_produs.php on line 63
+[11-Oct-2018 20:46:56 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/pieseind/public_html/web/application/views/pagini/pagina_produs.php on line 63
+[25-Nov-2018 16:23:28 UTC] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/pieseind/public_html/web/application/models/Airdrop_model.php on line 680
+[25-Nov-2018 16:23:33 UTC] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/pieseind/public_html/web/application/models/Airdrop_model.php on line 680
+[25-Nov-2018 16:23:39 UTC] PHP Fatal error:  Call to a member function num_rows() on boolean in /home/pieseind/public_html/web/application/models/Airdrop_model.php on line 680

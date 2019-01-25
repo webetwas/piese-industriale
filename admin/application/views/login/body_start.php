@@ -1,0 +1,1 @@
+<body class="gray-bg">

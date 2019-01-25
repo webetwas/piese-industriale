@@ -1,0 +1,1 @@
+[11-Oct-2018 19:21:57 UTC] PHP Fatal error:  Call to undefined method Item_model::msqlUpdateAtomID() in /home/pieseind/public_html/admin/application/controllers/Catalog_produse.php on line 272
