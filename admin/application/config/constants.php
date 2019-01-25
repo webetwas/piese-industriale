@@ -101,9 +101,9 @@ define("CORE_APP_VER", "3.1.5");
 // define("SITE_URL", "http://recukinetic.dev/");
 
 // define("BASE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/admin/');
-define("BASE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/2019/piese-industriale/admin/');
+define("BASE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/piese-industriale/admin/');
 // define("SITE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/');
-define("SITE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/2019/piese-industriale/web/');
+define("SITE_URL", 'http://' .$_SERVER['HTTP_HOST']. '/piese-industriale/web/');
 
 define("TBL_OWNER", "be_owner");
 define("TBL_COMPANY", "be_ocompany");

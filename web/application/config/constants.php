@@ -94,8 +94,8 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
  * [define CONSTANTS]
  *
  */
-define("BASE_URL", "http://localhost/2019/piese-industriale/web/");
-define("SITE_URL", "http://localhost/2019/piese-industriale/web/");
+define("BASE_URL", "http://localhost/piese-industriale/web/");
+define("SITE_URL", "http://localhost/piese-industriale/web/");
 
 define("TBL_OWNER", "be_owner");
 define("TBL_COMPANY", "be_ocompany");
