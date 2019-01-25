@@ -154,7 +154,7 @@
 
 														
 														<div class="row" style="margin-bottom:15px;">
-															<div class="col-sm-12">
+															<div class="col-sm-6">
 																<div class="form-group">
 																	<div class="col-sm-12">
 																		<label>Nume produs</label>
@@ -163,12 +163,11 @@
 																	
 																</div>
 															</div>
-														</div>
-
+														
 														<?php if(!is_null($item)): ?>
 														
-														<div class="row" style="margin-bottom:15px;">
-															<div class="col-sm-12">
+														
+															<div class="col-sm-6">
 																<div class="form-group">
 																	<div class="col-sm-12">
 																		<label>Nume produs <span style="color:red;">ENG</span></label>
@@ -300,36 +299,55 @@
 
 															<textarea name="<?=$form->item->prefix;?>content_en" id="ncontenten" rows="4"><?=(!empty($item->content_en) ? $item->content_en : "Product description..");?></textarea>
 															<div class="clearfix"></div>
-														</div>
-														
-														<div class="row">
-															<div class="col-sm-12">
-																<div class="form-group">
-																	<div class="col-sm-12">
-																		<label>Titlu browser</label>
-																		<input type="text" placeholder="Titlu browser" class="form-control" name="<?=$form->item->prefix;?>title_browser_ro" value="<?=(!is_null($item) && !is_null($item->title_browser_ro) ? $item->title_browser_ro : "");?>">
-																	</div>
-																</div>
-															</div>
 														</div>															
 														
 														<div class="row" style="margin-bottom:20px;">
 															<div class="col-sm-12">
 																<div class="form-group">
-																	<div class="col-sm-6">
+																	<div class="col-sm-4">
+																		<div class="form-group">
+																			<div class="col-sm-12">
+																				<label>Titlu browser</label>
+																				<input type="text" placeholder="Titlu browser" class="form-control" name="<?=$form->item->prefix;?>title_browser_ro" value="<?=(!is_null($item) && !is_null($item->title_browser_ro) ? $item->title_browser_ro : "");?>">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="col-sm-4">
 																		<label>Meta descriere</label>
 																		<input type="text" placeholder="Descriere meta" class="form-control" name="<?=$form->item->prefix;?>meta_description" value="<?=(!is_null($item) && !is_null($item->meta_description) ? $item->meta_description : "");?>">
 																	</div>
-																	
-																	<div class="col-sm-6">
+																	<div class="col-sm-4">
 																		<label>Meta keywords</label>
 																		<input type="text" placeholder="Cuvinte cheie" class="form-control" name="<?=$form->item->prefix;?>meta_keywords" value="<?=(!is_null($item) && !is_null($item->meta_keywords) ? $item->meta_keywords : "");?>">
 																	</div>
-																	
-																	
 																</div>
 															</div>
-														</div>														
+														</div>	
+
+<!--ENG-->
+														<div class="row" style="margin-bottom:20px;">
+															<div class="col-sm-12">
+																<div class="form-group">
+																	<div class="col-sm-4">
+																		<div class="form-group">
+																			<div class="col-sm-12">
+																				<label>Titlu browser<span style="color:red;">ENG</span></label>
+																				<input type="text" placeholder="Titlu browser" class="form-control" name="<?=$form->item->prefix;?>title_browser_ro" value="<?=(!is_null($item) && !is_null($item->title_browser_ro) ? $item->title_browser_ro : "");?>">
+																			</div>
+																		</div>
+																	</div>
+																	<div class="col-sm-4">
+																		<label>Meta descriere<span style="color:red;">ENG</span></label>
+																		<input type="text" placeholder="Descriere meta" class="form-control" name="<?=$form->item->prefix;?>meta_description" value="<?=(!is_null($item) && !is_null($item->meta_description) ? $item->meta_description : "");?>">
+																	</div>
+																	<div class="col-sm-4">
+																		<label>Meta keywords<span style="color:red;">ENG</span></label>
+																		<input type="text" placeholder="Cuvinte cheie" class="form-control" name="<?=$form->item->prefix;?>meta_keywords" value="<?=(!is_null($item) && !is_null($item->meta_keywords) ? $item->meta_keywords : "");?>">
+																	</div>
+																</div>
+															</div>
+														</div>	
+<!--ENG-->													
 														
 														<?php endif; ?>
 														<fieldset>

@@ -47,7 +47,7 @@
                     </div>
                         <!-- Scroll to top -->
                         <a class="scrollup" href="#">
-                            <img src="../web/public/assets/img/scrollup.png" alt="piese industriale, industrial parts">
+                            <img src="../web/public/assets/img/scrollup.png" alt="">
                         </a>
                     </div>
                 </div>
